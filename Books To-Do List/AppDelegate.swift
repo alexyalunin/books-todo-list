@@ -15,7 +15,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        // MARK: TabBar
+        UITabBar.appearance().isTranslucent = false
+        UITabBar.appearance().barTintColor = .white
+        UITabBar.appearance().tintColor = .black
+        
+        // MARK: TabBarItem
+        UITabBarItem.appearance().setTitleTextAttributes([NSFontAttributeName: UIFont(name: "ProximaNova-Regular", size: 10)!], for: .normal)
+        
+        // MARK: NavBar
+        UINavigationBar.appearance().isTranslucent = false
+        UINavigationBar.appearance().barTintColor = .white
+        UINavigationBar.appearance().tintColor = .black
+        UINavigationBar.appearance().titleTextAttributes = [NSFontAttributeName: UIFont(name: "ProximaNova-Semibold", size: 17)!]
+
         return true
     }
 

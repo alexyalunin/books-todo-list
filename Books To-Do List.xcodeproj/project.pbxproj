@@ -13,6 +13,10 @@
 		11D0E0891ECB6D3500A317CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11D0E0871ECB6D3500A317CD /* Main.storyboard */; };
 		11D0E08B1ECB6D3500A317CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11D0E08A1ECB6D3500A317CD /* Assets.xcassets */; };
 		11D0E08E1ECB6D3500A317CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11D0E08C1ECB6D3500A317CD /* LaunchScreen.storyboard */; };
+		11D0E0971ECB6E8300A317CD /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D0E0961ECB6E8300A317CD /* Utils.swift */; };
+		11D0E0A71ECB7BE600A317CD /* ProximaNova-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 11D0E0A41ECB7BE600A317CD /* ProximaNova-Regular.otf */; };
+		11D0E0A81ECB7BE600A317CD /* ProximaNova-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 11D0E0A51ECB7BE600A317CD /* ProximaNova-Semibold.otf */; };
+		11D0E0A91ECB7BE600A317CD /* ProximaNova-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 11D0E0A61ECB7BE600A317CD /* ProximaNova-Bold.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		11D0E08A1ECB6D3500A317CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11D0E08D1ECB6D3500A317CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11D0E08F1ECB6D3500A317CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11D0E0961ECB6E8300A317CD /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		11D0E0A41ECB7BE600A317CD /* ProximaNova-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Regular.otf"; sourceTree = "<group>"; };
+		11D0E0A51ECB7BE600A317CD /* ProximaNova-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Semibold.otf"; sourceTree = "<group>"; };
+		11D0E0A61ECB7BE600A317CD /* ProximaNova-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Bold.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,27 @@
 		11D0E0801ECB6D3500A317CD /* Books To-Do List */ = {
 			isa = PBXGroup;
 			children = (
-				11D0E0811ECB6D3500A317CD /* AppDelegate.swift */,
+				11D0E0951ECB6D7100A317CD /* Supporting Files */,
 				11D0E0831ECB6D3500A317CD /* FirstViewController.swift */,
 				11D0E0851ECB6D3500A317CD /* SecondViewController.swift */,
+				11D0E0961ECB6E8300A317CD /* Utils.swift */,
 				11D0E0871ECB6D3500A317CD /* Main.storyboard */,
+			);
+			path = "Books To-Do List";
+			sourceTree = "<group>";
+		};
+		11D0E0951ECB6D7100A317CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				11D0E0811ECB6D3500A317CD /* AppDelegate.swift */,
 				11D0E08A1ECB6D3500A317CD /* Assets.xcassets */,
 				11D0E08C1ECB6D3500A317CD /* LaunchScreen.storyboard */,
 				11D0E08F1ECB6D3500A317CD /* Info.plist */,
+				11D0E0A41ECB7BE600A317CD /* ProximaNova-Regular.otf */,
+				11D0E0A51ECB7BE600A317CD /* ProximaNova-Semibold.otf */,
+				11D0E0A61ECB7BE600A317CD /* ProximaNova-Bold.otf */,
 			);
-			path = "Books To-Do List";
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +148,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				11D0E08E1ECB6D3500A317CD /* LaunchScreen.storyboard in Resources */,
+				11D0E0A71ECB7BE600A317CD /* ProximaNova-Regular.otf in Resources */,
+				11D0E0A81ECB7BE600A317CD /* ProximaNova-Semibold.otf in Resources */,
+				11D0E0A91ECB7BE600A317CD /* ProximaNova-Bold.otf in Resources */,
 				11D0E08B1ECB6D3500A317CD /* Assets.xcassets in Resources */,
 				11D0E0891ECB6D3500A317CD /* Main.storyboard in Resources */,
 			);
@@ -143,6 +166,7 @@
 				11D0E0861ECB6D3500A317CD /* SecondViewController.swift in Sources */,
 				11D0E0821ECB6D3500A317CD /* AppDelegate.swift in Sources */,
 				11D0E0841ECB6D3500A317CD /* FirstViewController.swift in Sources */,
+				11D0E0971ECB6E8300A317CD /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
